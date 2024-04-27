@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME</title>
+    <!--font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="{{url_for('static',filename='styles.css')}}">
+
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="header">
+        <section class="flex">
+            <a href="m1.html" class="logo">quizzz.com</a>
+            <form action="" method="post" class="search-form">
+                <input type="text" name="search_box" placeholder="search categories..." required maxlength="100">
+                <button type="submit" class="fas fa-search" name="search_box"></button>
+
+            </form>
+
+            <div class="icons">
+                <div id="menu-btn" class="fas fa-bars"></div>
+                <div id="search-btn" class="fas fa-search"></div>
+                <div id="user-btn" class="fas fa-user"></div>
+                <div id="toggle-btn" class="fas fa-sun"></div>
+            </div>
+
+            <div class="profile">
+                <img src="mani.jpg" alt="browser not supported">
+                <h3>Manikanta Anusuri</h3>
+                <span>student</span>
+                <a href="profile.html" class="btn">view profile</a>
+                <div class="flex-btn">
+                    <a href="/login" class="option-btn">login</a>
+                    <a href="/register" class="option-btn">register</a>
+                </div>
+
+            </div>
+
+        </section>
+    </header>
+
+
+    <!-- header section ends -->
+
+
+    <!--main section starts-->
+
+    <section>
+
+    </section>
+    
+    <!--main section ends-->
+
+    <script src="/static/first.js"></script>
+</body>
+
+</html>
